@@ -1,81 +1,102 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: verdana;
 }
-h1 {
-  margin-bottom: 15px;
-}
+
 h1 {text-align: center;}
-
-h1 {
+p {
   border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  position: relative;
-  top: -125;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
+  margin-bottom: 15px;
+  font-size: 17px;
+  float: left;
+  float: down;
+
+  
 }
 
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
+div#container {
 }
 
+#p1 {
+  background-color: deepskyblue;
+  width: 33%;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+#p2 {
+  background-color:palevioletred;
+  width: 33%;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#p3 {
+  background-color:deepskyblue;
+  width: 33%;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#p4 {
+  background-color:paleturquoise;
+  margin-top: -164px;
+  margin-left: 400px;
+}
+
+#p5 {
+  background-color:turquoise;
+  margin-top: -164px;
+  margin-left: 900px;
+}
+
+#p6 {
+  background-color:darkturquoise;
+  margin-top: -164px;
+  margin-left: 1360px;
+}
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
+  #p1 {
+    width: 33%px;
+    height: 150px;  }
+  #p2 {
+    width: 33%px;
+    height: 150px;
   }
-  .col-lg-1 {
-    width: 8.33%;
+  #p3 {
+    width: 33%px;
+    height: 150px;
   }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
+  #p1 {
+    width: 33%px;
+    height: 150px; 
+    float: left; 
   }
-  .col-md-1 {
-    width: 8.33%;
+  #p2 {
+    width: 33%;
+    height: 150px;
+    float: left; 
   }
-  .col-md-2 {
-    width: 16.66%;
+  #p3 {
+    width: 33%;
+    height: 150px;
+    float: left; 
   }
-  .col-md-3 {
-    width: 25%;
+  body {
+    background-color: blue;
   }
-
 }
 
-/********** Small devices only **********/
-@media (max-width: 767px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-
-}
-
+</style>
